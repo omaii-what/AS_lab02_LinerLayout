@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         moodImages.forEachIndexed { index, imageView ->
             imageView.setOnClickListener {
                 selectMood(index)
-    }
-}
+            }
+        }
 
         val saveButton: Button = findViewById(R.id.saveButton)
         saveButton.setOnClickListener {
@@ -37,19 +37,19 @@ class MainActivity : AppCompatActivity() {
         val cancelButton: Button = findViewById(R.id.cancelButton)
         cancelButton.setOnClickListener {
             clearForm()
-    }
-}
-
-    private fun selectMood(index: Int){
-    selectedMood = index + 1
-    moodImages.forEachIndexed { i, imageView ->
-        if (i <= index){
-            imageView.setImageResource(android.R.drawable.btn_star_big_on)
-        } else{
-            imageView.setImageResource(android.R.drawable.btn_star_big_off)
         }
     }
-}
+
+    private fun selectMood(index: Int){
+        selectedMood = index + 1
+        moodImages.forEachIndexed { i, imageView ->
+            if (i <= index){
+                imageView.setImageResource(android.R.drawable.btn_star_big_on)
+            } else{
+                imageView.setImageResource(android.R.drawable.btn_star_big_off)
+            }
+        }
+    }
 
     private fun saveMood(){
         val commentEditText: EditText = findViewById(R.id.commentEditText)
