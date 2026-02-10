@@ -119,4 +119,133 @@
             android:backgroundTint="#4CAF50" />
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статистика за неделю"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пн"
+        android:textSize="18dp"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вт"
+        android:textSize="18dp"
+        android:layout_marginLeft="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ср"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Чт"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пт"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сб"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вс"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp">
+    <View
+        android:id="@+id/pn"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#4CAF50"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <View
+        android:id="@+id/vt"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#ffc107"
+        android:layout_marginLeft="2dp"/>
+
+    <View
+        android:id="@+id/sr"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#4CAF50"
+        android:layout_marginLeft="2dp"/>
+    <View
+        android:id="@+id/cht"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#4CAF50"
+        android:layout_marginLeft="2dp"/>
+
+    <View
+        android:id="@+id/pt"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#ff9800"
+        android:layout_marginLeft="2dp"/>
+
+    <View
+        android:id="@+id/sb"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#4CAF50"
+        android:layout_marginLeft="2dp"/>
+
+    <View
+        android:id="@+id/vs"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:background="#4CAF50"
+        android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цвет показывает оценку настроения (1-5)"
+        android:textSize="12dp"
+        android:textColor="#666666"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"/>
 </LinearLayout>
