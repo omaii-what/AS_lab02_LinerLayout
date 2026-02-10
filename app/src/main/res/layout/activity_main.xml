@@ -195,6 +195,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="18dp">
+
     <TextView
         android:id="@+id/pn"
         android:layout_width="50dp"
@@ -205,8 +206,6 @@
         android:textSize="20dp"
         android:textColor="#FFFF"
         android:gravity="center"/>
-
-
 
     <TextView
         android:id="@+id/vt"
